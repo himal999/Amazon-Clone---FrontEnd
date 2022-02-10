@@ -2,17 +2,33 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+ 
     
+}
+
+
+
+#nav-header{
+    width: 100%;
+    padding-left: 10px;
+    height: 6.3vh;
+    background-color: #131921;
+
 
 }
-#nav-header{
-    height: 6vh;
-    background-color: #131921;
+
+
+#nav-header-item{
+    display: flex;
+    width: 100%;
+    height: 6.3vh;
+    position: relative;
 }
 #logo{
     margin-top: 5px;
     width: 110px;
-    height:5vh
+    height:5vh;
+ 
 }
 
 #logo:hover{
@@ -208,10 +224,18 @@
 /*extra-nav*/
 
 #extra-nav{
+    padding-left: 10px;
     background-color: #232F3E;
     width: 100%;
     height: 4vh;
     color: white;
+}
+
+#extra-nav-item{
+    display: flex;
+    width: 100%;
+    height: 4vh;
+    position: relative;
 }
 
 .toggle{
@@ -245,7 +269,7 @@
     display: flex;
     width: 5.5%;
     font-size: 14px;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 3vh;
     margin-top: 4px;
@@ -257,7 +281,7 @@
     display: flex;
     width: 7%;
     font-size: 14px;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 3vh;
     margin-top: 4px;
@@ -269,7 +293,7 @@
     display: flex;
     width: 3.5%;
     font-size: 14px;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 3vh;
     margin-top: 4px;
@@ -281,7 +305,7 @@
     display: flex;
     width: 4.5%;
     font-size: 14px;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 3vh;
     margin-top: 4px;
@@ -291,17 +315,335 @@
 .extra-data-val{
     position: relative;
     display: flex;
-    width: 8.5%;
+    width: 10%;
     font-size: 14px;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 3vh;
     margin-top: 4px;
-    margin-left: 1140px;
+    margin-right: -1000px;
+    right: -1050px;
     padding: 2px 6px;
     font-weight: bold;
+   
 }
 
 .extra-data:hover,.extra-data-customer:hover,.extra-data-reg:hover,.extra-data-gift:hover,.extra-data-val:hover{
     border:1px solid white
+}
+
+
+
+
+
+
+
+
+@media(max-width:1790px){
+    
+    .extra-data-val{
+       
+       
+        right: -1030px;
+      
+    }
+}
+
+@media(max-width:1750px){
+    
+    .extra-data-val{
+       right: -1000px;
+    }
+}
+
+
+@media(max-width:1660px){
+    .extra-data{
+       
+        width:6%;
+     
+      
+    }
+    
+    .extra-data-customer{
+     
+        width: 8%;
+       
+    }
+    
+    .extra-data-reg{
+       
+        width: 4%;
+       
+    }
+    
+    .extra-data-gift{
+        
+        width: 5%;
+       
+    }
+    
+    .extra-data-val{
+       right: -880px;
+    }
+}
+
+
+
+@media(max-width:1546px){
+    .extra-data{
+       
+        width:7%;
+     
+      
+    }
+    
+    .extra-data-customer{
+     
+        width: 8%;
+       
+    }
+    
+    .extra-data-reg{
+       
+        width: 4%;
+       
+    }
+    
+    .extra-data-gift{
+        
+        width: 5%;
+       
+    }
+    
+    .extra-data-val{
+       right: -830px;
+    }
+}
+
+@media(max-width:1546px){
+  
+     .extra-data-gift{
+        
+        width: 6%;
+       
+    }
+    
+    .extra-data-val{
+       right: -760px;
+    }
+}
+
+@media(max-width:1433px){
+  
+    .extra-data-customer{
+     
+        width: 9%;
+       
+    }
+   
+   .extra-data-val{
+      right: -700px;
+   }
+}
+
+@media(max-width:1458px){
+    .search{
+    
+        width: 60%;
+       
+    }
+    .toggle{
+        
+        width: 4.5%;
+       
+       }
+
+
+    .extra-data-customer{
+     
+        width: 9%;
+       
+    }
+   
+   .extra-data-val{
+      right: -660px;
+      width: 11%;
+   }
+}
+
+@media(max-width:1327px){
+    .extra-data{
+      
+        width: 9%;
+      
+    }
+    
+    .extra-data-customer{
+        
+        width: 10%;
+      
+    }
+    
+    .extra-data-reg{
+        
+        width: 5%;
+     
+    }
+    
+    .extra-data-gift{
+    
+        width: 6%;
+     
+    }
+    
+    .extra-data-val{
+        right: -560px;
+        width: 12%;
+     }
+    
+}
+
+
+@media(max-width:1237px){
+
+.search{
+    
+    width: 48%;
+ 
+}
+}
+
+@media(max-width:1223px){
+    .toggle{
+      
+        width: 6%;
+ 
+       
+       }
+    .extra-data-gift{
+    
+        width: 7%;
+     
+    }
+    .extra-data-customer{
+        
+        width: 11%;
+      
+    }
+    .extra-data-val{
+        right: -450px;
+        width: 13%;
+     }
+}
+
+@media(max-width:1051px){
+    .extra-data{
+       
+        width:10%;
+     
+      
+    }
+    
+    .extra-data-customer{
+     
+        width: 12%;
+       
+    }
+    
+    .extra-data-reg{
+       
+        width: 7%;
+       
+    }
+    
+    .extra-data-gift{
+        
+        width: 8%;
+       
+    }
+
+    .extra-data-val{
+        right: -280px;
+        width: 14%;
+     }
+}
+
+@media(max-width:1011px){
+
+    .search{
+    
+        width: 38%;
+     
+    }
+    .extra-data{
+       
+        width:12%;
+     
+      
+    }
+    
+    .extra-data-customer{
+     
+        width: 13%;
+       
+    }
+    
+    .extra-data-reg{
+       
+        width: 8%;
+       
+    }
+    
+    .extra-data-gift{
+        
+        width: 9%;
+       
+    }
+    .extra-data-val{
+        right: -130px;
+        width: 16%;
+     }
+
+     #category{
+       
+        width: 80px;
+       
+    }
+}
+
+@media(max-width:891px){
+    .extra-data{
+       
+        width:11%;
+     
+      
+    }
+    
+    .extra-data-customer{
+     
+        width: 14%;
+       
+    }
+    
+    .extra-data-reg{
+       
+        width: 8%;
+       
+    }
+    
+    .extra-data-gift{
+        
+        width: 9%;
+       
+    }
+    .toggle{
+        
+        width: 6.5%;
+       
+       }
+    .extra-data-val{
+        right: -150px;
+        width: 17%;
+     }
 }
