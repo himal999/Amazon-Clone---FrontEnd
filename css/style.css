@@ -135,21 +135,72 @@
     margin: 4px 4px;
     height: 5vh;
     color: white;
-    padding: 2px  4px;
+    padding: 4px  4px;
+    margin-left: 12px;
+    width: 130px;
     
   
 }
 
-.account:hover{
+.return-order{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 4px 4px;
+    height: 5vh;
+    color: white;
+    padding: 4px  4px;
+    margin-right: 12px;
+    width: 80px;
+}
+
+
+.account:hover,.return-order:hover{
     border: 1px solid white;
 }
-.account>span{
+.account>span,.return-order>span{
+   
+    height: 14.5px;
     font-size: 12px;
-
- 
 }
 
-.account>strong{
+.account>strong,.return-order>strong{
     font-size: 15px;
   
+}
+
+.cart{
+   position: relative;
+   display: flex;
+   width: 60px;
+   height: 5vh;
+   color: white;
+   margin: 4px 4px;
+}
+
+.cart:hover{
+    border: 1px solid white;
+}
+
+#cart-icon{
+    font-size: 25px;
+    margin-top: 12px;
+    
+}
+
+.cart>span{
+    margin-top: 19px;
+    font-size: 15px;
+}
+
+.cart-count{
+    background-color:#ffffff;
+    height: 20px;
+    border-radius: 50%;
+    width: 20px;
+    color: tomato;
+    position: relative;
+    right: 55px;
+    top: 10px;
+
 }
